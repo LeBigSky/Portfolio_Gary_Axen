@@ -20,3 +20,9 @@ nav li{
     text-align: center;
     font-size: 200%;
  }
+ .container-head h1{
+    border: 1px solid black;
+ }
+ .croc{
+    display: none;
+ }
