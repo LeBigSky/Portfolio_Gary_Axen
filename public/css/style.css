@@ -1,0 +1,22 @@
+body{
+    background: linear-gradient(#e66465, #9198e5);
+    background-repeat: no-repeat;
+}
+[src^="./public/img/logo"]{
+    width: 250px;
+}
+.nav{
+    width: 1000px;
+    display: inline;
+}
+nav li{
+    display: inline;
+}
+ .nav>li>a {
+    text-decoration: none;
+    color: white;
+ }
+ .container-head{
+    text-align: center;
+    font-size: 200%;
+ }
