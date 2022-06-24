@@ -1,5 +1,9 @@
-let noncroc= document.getElementById("crackers");
+const noncroc = document.getElementById("crackers");
+let croc = document.getElementById("croc");
 
-noncroc.addEventListener ("mouseover", ()=> {
-noncroc.style.display= "none";
+noncroc.addEventListener('click', ()=> {
+noncroc.style.display = 'none';
+croc.style.dispaly = 'bloc';
 });
+
+console.log("hello");
