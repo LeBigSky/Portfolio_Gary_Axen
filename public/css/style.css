@@ -23,6 +23,6 @@ nav li{
  .container-head h1{
     border: 1px solid black;
  }
- .croc{
+ #croc{
     display: none;
  }

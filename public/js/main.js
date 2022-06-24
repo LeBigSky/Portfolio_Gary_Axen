@@ -1,5 +1,5 @@
 const noncroc = document.getElementById("crackers");
-let croc = document.getElementById("croc");
+const croc = document.getElementById("croc");
 
 noncroc.addEventListener('click', ()=> {
 noncroc.style.display = 'none';
