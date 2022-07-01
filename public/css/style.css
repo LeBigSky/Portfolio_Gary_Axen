@@ -98,12 +98,29 @@ i{
 }
 /* ANIMATION DU TIMER */
 #timer::before{
-    content:"";
-    position: relative;
-    width: 30px;
-    height: 50px;
-    background-color: aqua;
-    border: 2px solid aqua;
+    content:" ";
+    position: absolute;
+    animation: timersdots 1s;
+    transition-duration: 1s;
+    animation-iteration-count: infinite;
+    border: 3px solid aqua;
+    left: 7vw;
+    top: 5vh;
+ 
+}
+#timer::after{
+    content:" ";
+    position: absolute;
+    animation: timersdots 1s; 
+    transition-duration: 1s;
+    animation-iteration-count: infinite;
+    border: 3px solid aqua;
+    left: 7vw;
+    top: 3vh;
+}
+@keyframes timersdots{
+0% {opacity: 1; filter: brightness(1);}
+100%{opacity: 0; filter: brightness(0)}
 }
 
 nav li{
