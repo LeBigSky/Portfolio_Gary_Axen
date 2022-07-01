@@ -71,8 +71,8 @@ i{
   }
   /* END OF PROGRESSBAR */
 /* TIMER */
-#time{
-    font-size: 120px;
+#timer{
+    font-size: 99px;
     font-family: 'Wallpoet', cursive;;
     color: white;
     position: relative;

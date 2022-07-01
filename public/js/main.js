@@ -22,7 +22,7 @@ navover.addEventListener("mouseout", ()=> {
 function refreshTime() {
     const date = new Date();
     const timenow = date.getHours() + ':' + date.getMinutes() + ':' + date.getSeconds();
-    const timeDisplay = document.getElementById("time");
+    const timeDisplay = document.getElementById("timer");
     const dateString = timenow.toLocaleString();
     const formattedString = dateString.replace(" - ");
     timeDisplay.textContent = formattedString;
