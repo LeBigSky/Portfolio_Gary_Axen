@@ -1,6 +1,8 @@
 body{
-    background: linear-gradient(#e66465, #9198e5);
+    background: linear-gradient(#452f2f, #9198e5);
+    background-image: url('../img/pexels-felix-mittermeier-956999.jpg');
     background-repeat: no-repeat;
+    background-size: contain;
 }
 [src^="./public/img/logo"]{
     width: 250px;
