@@ -60,10 +60,10 @@ else if (daily <= 5 && timenow > 18 && timenow < 20){
     result = "Only open for family Business..."
 }
 else if (daily <= 5 && timenow > 20 && timenow < 22){
-     result = "On a personal meeting with my Xbox"
+     result = "Personal meeting (with my Xbox)"
 }
 else{
-    result = "On weekend now"
+    result = "On weekend now !"
 }
 var weekmessage = result;
 // console.log(weekmessage);
