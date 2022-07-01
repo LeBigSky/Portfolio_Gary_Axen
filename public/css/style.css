@@ -1,5 +1,4 @@
 body{
-    background: linear-gradient(#452f2f, #9198e5);
     background-image: url('../img/pexels-felix-mittermeier-956999.jpg');
     background-repeat: no-repeat;
     background-size:cover;
@@ -71,6 +70,24 @@ i{
     font-size: 25px;
   }
   /* END OF PROGRESSBAR */
+/* TIMER */
+#time{
+    font-size: 120px;
+    font-family: 'Wallpoet', cursive;;
+    color: white;
+    position: relative;
+    right: 24vw;
+    top: 8vh;
+    border: 15px solid white;
+    padding: 15px;
+}
+#message{
+    font-size: 40px;
+    color: white;
+    position: relative;
+    left:16vw ;
+    bottom: 5vh;
+}
 nav li{
     display: inline;
 }
@@ -84,8 +101,4 @@ nav li{
  }
  .container-head h1{
     border: 1px solid black;
- }
- #croc{
-    display: none;
-    margin-left: 30%;
  }

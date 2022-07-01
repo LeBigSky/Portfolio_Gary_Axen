@@ -17,3 +17,17 @@ navover.addEventListener("mouseover", ()=> {
 navover.addEventListener("mouseout", ()=> {
     showlevel.style.display = 'none';
 });
+
+
+function refreshTime() {
+    const date = new Date();
+    const timenow = date.getHours() + ':' + date.getMinutes() + ':' + date.getSeconds();
+    const timeDisplay = document.getElementById("time");
+    const dateString = timenow.toLocaleString();
+    const formattedString = dateString.replace(" - ");
+    timeDisplay.textContent = formattedString;
+  }
+    setInterval(refreshTime, 1000);
+
+const messDisplay = document.getElementById("message");
+messDisplay.textContent = "BUSY WITH JAVASCRIPT"
