@@ -9,6 +9,8 @@ body{
 }
 .logo2{
     display: none;
+    width:  100px;
+    padding: 2vh;
 }
 nav{
     width: fit-content;
