@@ -2,15 +2,68 @@ body{
     background: linear-gradient(#452f2f, #9198e5);
     background-image: url('../img/pexels-felix-mittermeier-956999.jpg');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size:cover;
 }
-[src^="./public/img/logo"]{
-    width: 250px;
+.logo1{
+    width:  100px;
+    padding: 2vh;
 }
-.nav{
-    width: 1000px;
-    display: inline;
+.logo2{
+    display: none;
 }
+nav{
+    width: fit-content;
+    display: flex;
+    position: relative;
+}
+nav>div:nth-of-type(1), nav>div:nth-of-type(2), nav>div:nth-of-type(3){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw;
+}
+.navbrand{
+    color: white;
+
+}
+  /* ON HOVER NAV*/
+.navoverdev{
+    height: 30px;
+    width: 300px;
+    padding: 10px;
+    position: relative;
+    right: 14vw;
+    top: 2vw;
+}
+nav>div:nth-of-type(2)h2:nth-of-type(2){
+    color:white;
+}
+i{
+    position:relative ;
+    right: 5vh;
+    top: 2.3vh;
+}
+.pourcent{
+    font-size: 20px;
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* PROGRESSBAR */
+#myProgress {
+    width: 25vh;
+    background-color: rgb(240, 225, 225);
+  }
+  
+  #myBar {
+    width: 15%;
+    height: 15px;
+    background-color: rgb(91, 195, 216);
+  }
+  i{
+    color: white;
+    font-size: 25px;
+  }
+  /* END OF PROGRESSBAR */
 nav li{
     display: inline;
 }
