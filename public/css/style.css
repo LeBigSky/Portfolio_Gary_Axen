@@ -27,16 +27,23 @@ nav>div:nth-of-type(1), nav>div:nth-of-type(2), nav>div:nth-of-type(3){
 
 }
   /* ON HOVER NAV*/
-.navoverdev{
+#navoverdev{
+    display: none;
     height: 30px;
     width: 300px;
     padding: 10px;
     position: relative;
     right: 14vw;
     top: 2vw;
+    
 }
-nav>div:nth-of-type(2)h2:nth-of-type(2){
+nav >div:nth-of-type(3)> div> h2:nth-of-type(2){ /* H2 du hover nav*/
     color:white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 5vh;
+    left: 3vw;
 }
 i{
     position:relative ;
