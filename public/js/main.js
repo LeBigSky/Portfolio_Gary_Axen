@@ -39,27 +39,29 @@ function refreshTime() {
 // const messDisplay = document.getElementById("message");
 // messDisplay.textContent = weekmessage;
 
-const weekdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+
+
 const datenow = new Date();
 const daily = datenow.getDay();
 const timenow = datenow.getHours();
 
-console.log(daily);
+console.log(daily)
+console.log(timenow)
 
-if (daily <= 5 && timenow > 9-12 && timenow < 13-17) {
+if (daily <= 5 && timenow > 9-12/* && timenow < 13-17*/) {
     result = "Improving my coding skills";    
 }
 else if (daily <= 5 && timenow == 12-13)
 {
     result = " Sorry, out for lunch now"
 }
-else if (daily <= 5 && timenow > 17 && timenow < 18){
+else if (daily <= 5 && timenow > 17-18){
     result = "On my way home"
 }
-else if (daily <= 5 && timenow > 18 && timenow < 20){
+else if (daily <= 5 && timenow == 18-20){
     result = "Only open for family Business..."
 }
-else if (daily <= 5 && timenow > 20 && timenow < 22){
+else if (daily <= 5 && timenow == 20-22){
      result = "Personal meeting (with my Xbox)"
 }
 else{
