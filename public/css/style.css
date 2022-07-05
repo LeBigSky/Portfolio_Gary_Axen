@@ -210,25 +210,14 @@ nav li{
     animation-iteration-count: infinite;
 }
 @keyframes move{
-0% {opacity:1; bottom:180px; left:5%;}
-5%{opacity:1; bottom:180px; left:3.5%;}
-10%{opacity:1; bottom:175px; left:3.4%;}
-15%{opacity:1; bottom:170px; left:3.3%;}
-20%{opacity:1; bottom:165px; left:3.2%;}
-25%{opacity:1; bottom:160px; left:3.1%;}
-30%{opacity:1; bottom:155px; left:3%;}
-35%{opacity:1; bottom:130px; left:2.9%;}
-40%{opacity:1; bottom:145px; left:2.8%;}
-45%{opacity:1; bottom:140px; left:2.7%;}
-50%{opacity:1; bottom:135px; left:3%;}
-55%{opacity:1; bottom:130px; left:3.2%;}
-60%{opacity:1; bottom:125px; left:3.4%;}
-65%{opacity:1; bottom:120px; left:3.6%;}
-70%{opacity:1; bottom:120px; left:3.8%;}
-75%{opacity:1; bottom:120px; left:4%;}
-80%{opacity:1; bottom:120px; left:4.5%;}
-85%{opacity:1; bottom:140px; left:5%;}
-90%{opacity:1; bottom:155px; left:5%;}
-95%{opacity:1; bottom:165px; left:4%;}
+0% {opacity:1; bottom:125px; left:9%;}
+5%{opacity:1; bottom:130px; left:8%;}
+10%{opacity:1; bottom:135px; left:3.4%;}
+15%{opacity:1; bottom:130px; left:3.3%;}
+20%{opacity:1; bottom:135px; left:3.2%;}
+25%{opacity:1; bottom:130px; left:3.1%;}
+30%{opacity:1; bottom:125px; left:3%;}
+35%{opacity:1; bottom:120px; left:2.9%;}
+40%{opacity:1; bottom:115px; left:2.8%;}
 100%{opacity:1; bottom:175px; left:4.5%;}
 }
