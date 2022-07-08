@@ -25,6 +25,7 @@ divlogo.addEventListener("mouseout", ()=> {
     logoblanc.style.display = 'block';
 });
 
+// FONCTION APPARITION LOGO & DISPARITION ANIMATION
 
 function appear(){
     logoblanc.style.opacity = 1;
@@ -50,37 +51,42 @@ function refreshTime() {
     timeDisplay.textContent = formattedString;
   }
     setInterval(refreshTime, 1000);
+
+
+
+
 // FONCTION MESSAGE RELATIF A L'HEURE
 // const messDisplay = document.getElementById("message");
 // messDisplay.textContent = weekmessage;
 
 
 
-const datenow = new Date();
-const daily = datenow.getDay();
-const timenow = datenow.getHours();
+let datenow = new Date();
+let daily = datenow.getDay();
+let timenow = datenow.getHours();
+
 
 console.log(daily)
 console.log(timenow)
 
-if (daily <= 5 && timenow > 9-12 && timenow < 13-17) {
-    result = "Improving my coding skills";    
+if (daily <= 5 && timenow >= 9 && timenow < 17) {
+    result = "Improving my skills";    
 }
-else if (daily <= 5 && timenow == 12-13)
+else if (daily <= 5 && timenow >= 12 && timenow < 13)
 {
     result = " Sorry, out for lunch now"
 }
-else if (daily <= 5 && timenow == 17-18){
+else if (daily <= 5 && timenow == 17){
     result = "On my way home"
 }
-else if (daily <= 5 && timenow == 18-20){
-    result = "Only open for family Business..."
+else if (daily <= 5 && timenow >= 18 && timenow < 20){
+    result = "Open (for family Business)"
 }
-else if (daily <= 5 && timenow == 20-22){
-     result = "Personal meeting (with my Xbox)"
+else if (daily <= 5 && timenow >= 20 && timenow < 22){
+     result = "On meeting (with my Xbox)"
 }
 else{
-    result = "On weekend now !"
+    result = "It's weekend now !"
 }
 var weekmessage = result;
 // console.log(weekmessage);
