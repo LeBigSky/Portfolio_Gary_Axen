@@ -25,6 +25,21 @@ divlogo.addEventListener("mouseout", ()=> {
     logoblanc.style.display = 'block';
 });
 
+
+function appear(){
+    logoblanc.style.opacity = 1;
+}
+a = setInterval(appear, 2600);
+
+const spot= document.getElementsByClassName("spotlogo")[0];
+
+function disappear(){
+    spot.style.display = 'none';
+}
+x = setInterval(disappear, 2600);
+
+
+
 // FONCTION AFFICHAGE DE L'HEURE 
 function refreshTime() {
     const date = new Date();

@@ -6,6 +6,7 @@ body{
 .logo1{
     width:  100px;
     padding: 2vh;
+    opacity: 0;
 
 }
 .logo2{
@@ -198,17 +199,14 @@ nav li{
     width: 20px;
     height:20px;
     background-color: aqua;
-    border-radius: 50%;
-    
- 
-    
+    border-radius: 50%; 
 }
-.container-body{
+.container-body{ /* CONTAINER DE L'ANIMATION SUR LE LOGO*/
     position: relative;
     width: 100%;
     animation: move 3s;
     animation-duration: 3s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
 }
 @keyframes move{
 0% {opacity:1; bottom:130px; left:4.8%;background-color: aquamarine; border-radius: 25px;}
