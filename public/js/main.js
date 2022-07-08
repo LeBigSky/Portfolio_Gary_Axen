@@ -48,14 +48,14 @@ const timenow = datenow.getHours();
 console.log(daily)
 console.log(timenow)
 
-if (daily <= 5 && timenow > 9-12/* && timenow < 13-17*/) {
+if (daily <= 5 && timenow > 9-12 && timenow < 13-17) {
     result = "Improving my coding skills";    
 }
 else if (daily <= 5 && timenow == 12-13)
 {
     result = " Sorry, out for lunch now"
 }
-else if (daily <= 5 && timenow > 17-18){
+else if (daily <= 5 && timenow == 17-18){
     result = "On my way home"
 }
 else if (daily <= 5 && timenow == 18-20){
