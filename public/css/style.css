@@ -6,6 +6,7 @@ body{
 .logo1{
     width:  100px;
     padding: 2vh;
+
 }
 .logo2{
     display: none;
@@ -210,14 +211,25 @@ nav li{
     animation-iteration-count: infinite;
 }
 @keyframes move{
-0% {opacity:1; bottom:125px; left:9%;}
-5%{opacity:1; bottom:130px; left:8%;}
-10%{opacity:1; bottom:135px; left:3.4%;}
-15%{opacity:1; bottom:130px; left:3.3%;}
-20%{opacity:1; bottom:135px; left:3.2%;}
-25%{opacity:1; bottom:130px; left:3.1%;}
-30%{opacity:1; bottom:125px; left:3%;}
-35%{opacity:1; bottom:120px; left:2.9%;}
-40%{opacity:1; bottom:115px; left:2.8%;}
-100%{opacity:1; bottom:175px; left:4.5%;}
+0% {opacity:1; bottom:130px; left:4.8%;background-color: aquamarine; border-radius: 25px;}
+5%{opacity:1; bottom:135px; left:4%;}
+10%{opacity:1; bottom:125px; left:3.6%;}
+15%{opacity:1; bottom:110px; left:2.9%;}
+20%{opacity:1; bottom:100px; left:2.6%;}
+25%{opacity:1; bottom:90px; left:2.3%;}
+30%{opacity:1; bottom:85px; left:2.0%;}
+35%{opacity:1; bottom:70px; left:3%;}
+40%{opacity:1; bottom:70px; left:3.6%;}
+45%{opacity:1; bottom:70px; left:4.2%;}
+50%{opacity:1; bottom:70px; left:5%;}
+55%{opacity:1; bottom:100px; left:5.9%;}
+60%{opacity:1; bottom:100px; left:5.6%;}
+65%{opacity:1; bottom:100px; left:4.3%;}
+70%{opacity:0.5; bottom:100px; left:4.1%;}
+75%{opacity:0.1; bottom:100px; left:4%;}
+80%{opacity:0; bottom:100px; left:4%;}
+85%{opacity:0; bottom:110px; left:4.2%;}
+90%{opacity:0; bottom:120px; left:4.2%;}
+95%{opacity:0.1; bottom:130px; left:4.5%;}
+100%{opacity:1; bottom:130px; left:4.5%;}
 }
