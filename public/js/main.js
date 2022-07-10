@@ -64,25 +64,26 @@ function refreshTime() {
 let datenow = new Date();
 let daily = datenow.getDay();
 let timenow = datenow.getHours();
-
+ 
 
 console.log(daily)
 console.log(timenow)
 
-if (daily <= 5 && timenow >= 9 && timenow < 17) {
+
+if (daily <= 5 && daily > 0 && timenow >= 9 && timenow < 17) {
     result = "Improving my skills";    
 }
-else if (daily <= 5 && timenow >= 12 && timenow < 13)
+else if (daily <= 5 && daily > 0 && timenow >= 12 && timenow < 13)
 {
     result = " Sorry, out for lunch now"
 }
-else if (daily <= 5 && timenow == 17){
+else if (daily <= 5 && daily > 0 && timenow == 17){
     result = "On my way home"
 }
-else if (daily <= 5 && timenow >= 18 && timenow < 20){
+else if (daily <= 5 && daily > 0 && timenow >= 18 && timenow < 20){
     result = "Open (for family Business)"
 }
-else if (daily <= 5 && timenow >= 20 && timenow < 22){
+else if (daily <= 5 && daily > 0 && timenow >= 20 && timenow < 22){
      result = "On meeting (with my Xbox)"
 }
 else{
